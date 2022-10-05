@@ -62,7 +62,7 @@ if "what about you" in statement:
             statement=takecommand().lower()
             if statement==0:
                 continue
-            if "goodbye veronica" in statement or "ok bye" in statement or "no" in statement: 
+            if "goodbye jarvis" in statement or "ok bye" in statement or "no" in statement: 
                 speak("Shutting down")
             if "upcoming events" in statement:
                 def main():
@@ -145,7 +145,7 @@ if "what about you" in statement:
                     break
                 
                 
-            if "what is the time" in statement or "what is the time veronica" in statement:
+            if "what is the time" in statement or "what is the time jarvis" in statement:
                 t=datetime.datetime.now().strftime("%H:%M:%S")
                 speak("Right now the time is {}".format(t))
                 time.sleep(4)
@@ -223,7 +223,7 @@ else:
             statement=takecommand().lower()
             if statement==0:
                 continue
-            if "goodbye veronica" in statement or "ok bye" in statement or "no" in statement: 
+            if "goodbye jarvis" in statement or "ok bye" in statement or "no" in statement: 
                 speak("Shutting down")
             if "upcoming events" in statement:
                 def main():
